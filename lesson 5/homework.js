@@ -59,3 +59,38 @@ let i = 0;
 while (++i < 5) console.log( i );
 
 // bu yerda consoleda brdan 4gacha chiqdi, lekin why?*  !!!
+
+// for(let i = 0; i <= 3; i++) {
+//   // console.log(`number ${1}!`);
+//   console.log(i);
+// }
+
+// let i = 0;
+// while (i < 3) {
+//   console.log(`number ${1}!`);
+//   i++;
+// }
+
+// let i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i++
+// }
+
+// *********************************
+// 4-task
+// *********************************
+
+let a = 10;
+c = 0;
+for (let b = 2; b <= a; b++) {
+      for (let i = 1; i <= b; i++) {
+          if (b % i === 0) {
+              c++;
+          }
+      }
+      if (c == 2) {
+          console.log(`tub son ${b}`);
+      }
+      c = 0;
+  }
