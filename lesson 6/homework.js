@@ -46,3 +46,26 @@
 // }
 
 // pow(5, 5)
+
+// task 4
+
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes();
+//   else no();
+// }
+
+// ask(
+//   "do you agree?",
+//   function() { alert("you agree."); },
+//   function() { alert("you canceled the execution."); },
+// );
+
+ask = (question, yes, no) => {
+  if (confirm(question)) yes();
+  else no();
+}
+
+ask('do you agree?',
+() => {alert('you agree')},
+() => {alert('you canceled')}
+)
