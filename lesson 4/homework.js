@@ -1,5 +1,5 @@
 // Homework lesson -4
-// if, if else, nullish
+// if, if else, nullish.
 
 
 // 1-task
