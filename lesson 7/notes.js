@@ -59,3 +59,63 @@ let name = { name: 1};
 
 // console.log({ ...age, ...name });
 // spread operator ... nuqtali,
+
+
+// ***********************
+
+// { : }
+
+// let account = "Justdiyo";
+
+// const account = {
+//   account: 'webbraim',
+//   founded: 2020,
+//   location: "Tashkent",
+//   "full name": "webbrain IT academy",
+//   major: "frontend"
+// }
+
+// Object.freeze(account) //malumotni ozgartrb bomedi, will be freezed
+// Object.seal(account); // obj ichidagi  amlumotni yangilasa boladi.
+// delete account.major;
+// let key = "major";
+// console.log(account);
+
+// console.log(account['major']); // obj ichidagi haqiqiysini oladi
+// console.log(account[key]); //obj tashqarisidagi also included
+// console.log(account.key);
+
+// const ac1 = {
+//   name: 'webbraim',
+//   major: "frontend",
+// };
+
+// console.log('name' in ac1);
+
+// const ac2 = {}
+// Object.assign(ac2, ac1); //value bilan tenglab qoylgan bilan bir xil
+// console.log(ac2);
+// const ac2 = structuredClone(ac1);
+// ac1.name = "bhfjcsdbhjcd";
+// console.log(ac2);
+// const account2 = {
+//   account: 'webbraim',
+//   major: "frontend"
+// }
+// const account3 = account1;
+// console.log(account1 == account3);
+// console.log(account1 === account3);
+
+// const ac1 = {
+//   name: 'webbraim',
+//   major: "frontend",
+//   founded: 2022,
+//   students: 1000,
+//   mentors: 5,
+// };
+
+// for(let i in ac1){
+//   console.log(i);
+// }
+// i orqali bz obj key larini olyabmiz
+
