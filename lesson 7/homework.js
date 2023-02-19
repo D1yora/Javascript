@@ -41,3 +41,20 @@ console.log(account["key"]);
   // }
 
   // let num = 0;
+
+// /////////////
+// n1
+// let obj = {
+//   id:1,
+//   name:"webbrain"
+// }
+
+// for(let i in obj) {
+//   console.log(i);
+// }
+
+// n2
+let obj = {
+  id: 1,
+  name: "webbrain",
+}
